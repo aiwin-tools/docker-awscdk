@@ -1,7 +1,7 @@
 docker-awscdk
 =============
 
-[Docker](https://www.docker.com/) image of [AWS CDK](https://aws.amazon.com/es/cli/) with necessary tools for build our projects
+[Docker](https://www.docker.com/) image of [AWS CDK](https://docs.aws.amazon.com/cdk/latest/guide/home.html) with necessary tools for build our projects
 
 This image adds several tools used by our integration and deployment processes, like jq, curl, etc
 
