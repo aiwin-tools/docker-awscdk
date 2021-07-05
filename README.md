@@ -1,4 +1,4 @@
-docker-awscli
+docker-awscdk
 =============
 
 [Docker](https://www.docker.com/) image of [AWS CDK](https://aws.amazon.com/es/cli/) with necessary tools for build our projects
