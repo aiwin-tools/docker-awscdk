@@ -7,6 +7,9 @@ RUN apt-get update \
 COPY --from=node:lts /usr/local /usr/local
 COPY --from=node:lts /opt /opt
 
+COPY --from=amazon/aws-cli /usr/local/aws-cli/ /usr/local/aws-cli/
+COPY --from=amazon/aws-cli /aws-cli-bin/ /usr/local/bin/
+
 RUN npm install -g aws-cdk
 
 CMD [ "cdk" ]
